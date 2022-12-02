@@ -88,4 +88,10 @@ footer *{
 
 #btn-perfil{
     margin-left: auto;
+    background-color: white;
+    border-radius: 50%;
+    border: white 2px solid;
+}
+.material-symbols-outlined{
+    background-color: white;
 }

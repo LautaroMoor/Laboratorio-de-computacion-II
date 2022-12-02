@@ -1,0 +1,91 @@
+header{
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#bloque-sup{
+    display: flex;
+    flex-direction: row;
+}
+
+#bloque-izq-sup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#bloque-izq{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5px;
+}
+
+#bloque-inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+h2{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+.primeraFila{
+    height: 100px;
+    width: 6%;
+    border: red solid 5px !important;
+}
+
+#faces{
+    display: flex;
+    flex-direction: column;
+    border: blue 5px solid !important;
+    height: 300px;
+}
+
+#bloque-izq-inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.segundaFila{
+    height: 100px;
+    width: 6%;
+    border: yellow solid 5px !important;
+}
+
+footer{
+    background-color: #2A2953 !important;
+    margin: 2px;
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+footer *{
+    background-color: #2A2953 !important;
+}
+
+#btn-perfil{
+    margin-left: auto;
+}

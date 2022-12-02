@@ -1,0 +1,10 @@
+*{
+    background-color: #17123B;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.bloque{
+    background-color: #2A2953;
+    margin: 20px;
+    border: green solid 5px;
+}

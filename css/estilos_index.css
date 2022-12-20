@@ -1,3 +1,7 @@
+body{
+    background-color: #17123B;
+}
+
 header{
     padding: 4px;
     display: flex;
@@ -92,6 +96,38 @@ footer *{
     border-radius: 50%;
     border: white 2px solid;
 }
-.material-symbols-outlined{
-    background-color: white;
+
+.conformidad-nivel{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2A2953;
+    padding: 15px;
+}
+
+.conformidad-valor{
+    font-size: 35px;
+    background-color: #2A2953;
+    color: white;
+}
+
+.icono-grande{
+    font-size: 45px !important;
+}
+
+.conformidad-icono{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.conformidad-descripcion{
+    background-color: #2A2953;
+    color: white;
+}
+
+.conformidad-icono{
+    margin-right: 20px;
 }

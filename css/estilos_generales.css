@@ -1,10 +1,35 @@
 *{
-    background-color: #17123B;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.bloque{
     background-color: #2A2953;
     margin: 20px;
     border: green solid 5px;
+}
+
+.rojo{
+    color: red !important;
+}
+
+.verde{
+    color: green !important;
+}
+
+.amarillo{
+    color: yellow !important;
+}
+
+.fondo-verde80{
+    background-color: rgba(0,255,0,0.8);
+}
+.fondo-rojo80{
+    background-color: rgba(255,0,0,0.8);
+}
+.fondo-amarillo80{
+    background-color: rgba(255,255,0,0.8);
+}
+
+.tr50{
+    color: rgba(0,0,0,0.5);
 }

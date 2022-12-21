@@ -2,6 +2,12 @@ body{
     background-color: #17123B;
 }
 
+.bloque{
+    background-color: #2A2953;
+    margin: 20px;
+    /* border: green solid 5px; */
+}
+
 header{
     padding: 4px;
     display: flex;
@@ -20,6 +26,13 @@ main{
     justify-content: flex-start;
 }
 
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.4;
+    }
+
 #bloque-sup{
     display: flex;
     flex-direction: row;
@@ -36,15 +49,26 @@ main{
     display: flex;
     flex-direction: column;
     margin: 0.5px;
+    width: 80%;
 }
 
 #bloque-inf{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    width: 100%;
 }
 
+h1{
+    color: white;
+}
+
+
 h2{
+    color: white;
+}
+
+h3{
     color: white;
 }
 
@@ -53,16 +77,26 @@ h4{
 }
 
 .primeraFila{
-    height: 100px;
-    width: 6%;
-    border: red solid 5px !important;
+    height: 175px;
+    width: 70%;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    /* border: red solid 5px !important; */
+}
+
+.primeroPrimeraFila{
+    width: 20%;
+    text-align: center;
+    color:white;
 }
 
 #faces{
     display: flex;
     flex-direction: column;
-    border: blue 5px solid !important;
-    height: 300px;
+    /* border: blue 5px solid !important; */
+    height: 490px;
 }
 
 #bloque-izq-inf{
@@ -72,10 +106,15 @@ h4{
     flex-wrap: nowrap;
 }
 
+#bloque-der{ 
+    width: 20%;
+}
+
 .segundaFila{
-    height: 100px;
-    width: 6%;
-    border: yellow solid 5px !important;
+    height: 80%;
+    width: 60%;
+    /* border: yellow solid 5px !important; */
+    padding: 5px;
 }
 
 footer{
@@ -93,8 +132,8 @@ footer *{
 #btn-perfil{
     margin-left: auto;
     background-color: white;
-    border-radius: 50%;
-    border: white 2px solid;
+    border-radius: 100%;
+    border: black 2px solid;
 }
 
 .conformidad-nivel{
@@ -104,21 +143,22 @@ footer *{
     align-items: center;
     background-color: #2A2953;
     padding: 15px;
+    margin: 30px;
 }
 
 .conformidad-valor{
-    font-size: 35px;
+    font-size: 40px;
     background-color: #2A2953;
     color: white;
 }
 
 .icono-grande{
-    font-size: 45px !important;
+    font-size: 60px !important;
 }
 
 .conformidad-icono{
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     padding: 0px;
 }
@@ -131,3 +171,123 @@ footer *{
 .conformidad-icono{
     margin-right: 20px;
 }
+
+.bloque-inf-css{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.imag{
+    width: 300px;
+    height: 170px;
+    margin-left: 70px;
+}
+
+.csatBloque{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloqueBordeRojo{
+    border: #A14C60 4px solid;
+    background-color: #44223F;
+    border-radius: 4px;
+    height: 100px;
+    padding: 10px;
+    width: 100px;
+}
+
+.csatCentrado{
+    text-align: center;
+}
+
+#csatLetra{
+    color:white;
+    font-size: 35px;
+}
+
+#bloqueletra{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.csatBloque{
+    flex: flex;
+    flex-direction: row;
+}
+
+.csatBloqueIzquierdo{
+    display: flex;
+    flex-direction: column;
+    margin-right: 59%;
+}
+
+.imagentriangulo{
+    width: 40px;
+    height: 40px;
+    margin-left: 30%;
+    margin-top: 6px;
+}
+
+
+/* 676889 */
+.csatDescripcion{
+    color: #676889;
+    font-size: 16px;
+}
+
+.posimagen{
+    margin-left: 40px;
+}
+
+.sinMargen{
+    margin: 0%;
+}
+
+.margenSeparacion{
+    margin-top: 20px;
+}
+
+@media (max-width:950px){
+    #bloque-sup{
+        flex-direction: column;
+    }
+    
+    #bloque-izq-sup{
+        flex-direction: column;
+    }
+    #bloque-inf{
+        flex-direction: column;
+    }
+    #bloque-izq-inf{
+        flex-direction: column;
+    }
+    
+    .primeroPrimeraFila{
+        width: 100%;
+    }
+
+    .primeraFila{
+        width: 104%;
+    }
+
+    .segundaFila{
+        width: 108%;
+    }
+
+    #bloque-der{ 
+        width: 92%;
+    }
+
+    .bloque-inf-css{
+        width: 83%;
+    }
+
+    .csatBloqueIzquierdo{
+        margin-right: 67%;
+    }
+} 

@@ -10,123 +10,160 @@
     </head>
 
     <body>
-        <div id="contenedor">
-            <header>
-                    <h1>Support Team Slide Dashboard</h1>
-                    <a href="perfil.html" target="_blank">
-                        <button id="btn-perfil" >
-                            <span class="material-symbols-outlined"> person </span>
-                        </button>
-                    </a>
-            </header>
+        <header>
+                <h1>Support Team Slide Dashboard</h1>
+                <button id="btn-perfil" >
+                    <a href="perfil.html"><span class="material-symbols-outlined">person</span></a>
+                </button>
+        </header>
 
-            <main>
-                <div id="bloque-sup">
-                    <div id="bloque-izq">
-                        <div id="bloque-izq-sup">
-                            <!-- PRODUCT NAME -->
-                            <div class="bloque primeraFila">
+        <main>
+            <div id="bloque-sup">
+                <div id="bloque-izq">
+                    <div id="bloque-izq-sup">
+                        <!-- PRODUCT NAME -->
+                        <div class="bloque primeraFila primeroPrimeraFila">
+                            <h3>PRODUCT NAME</h3>
+                            <p>Product 01</p>
+                        </div>
+                        
+                        <!-- AVERAGE RESPONSE TIME -->
+                        <div class="bloque primeraFila">
+                            <h4>Average Response Time</h4>
+                            <div class="csatBloque">
+                                <div class="csatBloqueIzquierdo">
+                                    <div>
+                                        <h3 class="sinMargen">11:24hr</h3>
+                                        <p class="csatDescripcion sinMargen">Last Month</p>
+                                    </div>
+                                    <div class="margenSeparacion">
+                                        <h3 class="sinMargen">8:11hr</h3>
+                                        <p class="csatDescripcion sinMargen">Carant Month</p>
+                                    </div>
+                                </div>
+
+                                <div class="bloqueBordeRojo ">
+                                    <img src="img/Red_triangle.svg.png" class="imagentriangulo">
+                                    <h3 id="bloqueletra">-2:09 hr</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CUSTOMER SATISFACTION STORE -->
+                        <div class="bloque primeraFila">
+                            <h4>Customer Satisfaction Score(CSAT)</h4>
+                            <div class="csatBloque">
+                                <div class="csatBloqueIzquierdo">
+                                    <div >
+                                        <h3 class="sinMargen">73%</h3>
+                                        <p class="csatDescripcion sinMargen">Last Month</p>
+                                    </div>
+                                    <div class="margenSeparacion">
+                                        <h3 class="sinMargen">65%</h3>
+                                        <p class="csatDescripcion sinMargen">Carant Month</p>
+                                    </div>
+                                </div>
                                 
+                                <div class="bloqueBordeRojo csatCentrado">
+                                    <h3 id="csatLetra">65%</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="bloque-izq-inf">
+                        <!-- CUSTOMER SATISFACTION STORE2 -->
+                        <div class="bloque segundaFila">
+                            <h4>Customer Satisfaction Score (CSAT)</h4>
+                            <img src="img/customer satisfaction score.jpg" class="imag">
+                        </div>
+
+                        <!-- CUSTOMER EFFORT SCORE -->
+                        <div class="bloque segundaFila">
+                            <h4>Customer Effort Score (CES)</h4>
+                            <img src="img/customer effort score.jpg" class="imag">
+                        </div>
+
+                        <!-- NET PROMOTER SCORE -->
+                        <div class="bloque segundaFila">
+                            <h4>Net Promoter Score (NPS)</h4>
+                            <img src="img/Captura de pantalla (77).png" class="imag">
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="bloque-der">
+                    <div class="bloque" id="faces">
+                        <!-- Cara Feliz -->
+                        <div class="conformidad-nivel">
+                            <div class="conformidad-icono fondo-verde80">
+                                <span class=" material-icons tr50 icono-grande">
+                                    sentiment_satisfied   </span>
                             </div>
                             
-                            <!-- AVERAGE RESPONSE TIME -->
-                            <div class="bloque primeraFila">
-
-                            </div>
-
-                            <!-- CUSTOMER SATISFACTION STORE -->
-                            <div class="bloque primeraFila">
+                            <div class="conformidad-detalle">
+                                <div class="conformidad-valor"> 67.76%</div>
+                                <div class="conformidad-descripcion"> Satistecho </div>
                             </div>
                         </div>
-                        <div id="bloque-izq-inf">
-                            <!-- CUSTOMER SATISFACTION STORE2 -->
-                            <div class="bloque segundaFila">
-                                <img src="img/customer satisfaction score.jpg">
-                            </div>
 
-                            <!-- CUSTOMER EFFORT SCORE -->
-                            <div class="bloque segundaFila">
-                                <img src="img/customer effort score.jpg">
-                            </div>
+                        <hr>
 
-                            <!-- NET PROMOTER SCORE -->
-                            <div class="bloque segundaFila">
-                                <img src="img/Captura de pantalla (77).png">
+                        <!-- Cara disconforme -->
+                        <div class="conformidad-nivel">
+                            <div class="conformidad-icono fondo-amarillo80">
+                                <span class="material-icons tr50 icono-grande">
+                                    sentiment_neutral   </span>
+                            </div>
+                            
+                            <div class="conformidad-detalle">
+                                <div class="conformidad-valor"> 20.43%</div>
+                                <div class="conformidad-descripcion"> Neutral </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div id="bloque-der">
-                        <div class="bloque" id="faces">
-                            <!-- Cara Feliz -->
-                            <div class="conformidad-nivel">
-                                <div class="conformidad-icono fondo-verde80">
-                                    <span class=" material-icons tr50 icono-grande">
-                                        sentiment_satisfied   </span>
-                                </div>
-                                
-                                <div class="conformidad-detalle">
-                                    <div class="conformidad-valor"> 67.76%</div>
-                                    <div class="conformidad-descripcion"> Satistecho </div>
-                                </div>
-                            </div>
 
-                            <hr>
+                        <hr>
 
-                            <!-- Cara disconforme -->
-                            <div class="conformidad-nivel">
-                                <div class="conformidad-icono fondo-amarillo80">
-                                    <span class="material-icons tr50 icono-grande">
-                                        sentiment_neutral   </span>
-                                </div>
-                                
-                                <div class="conformidad-detalle">
-                                    <div class="conformidad-valor"> 20.43%</div>
-                                    <div class="conformidad-descripcion"> Neutral </div>
-                                </div>
-                            </div>
-
-                            <hr>
-
-                            <!-- CARA TRISTE -->
-                            <div class="conformidad-nivel">
-                                <div class="conformidad-icono fondo-rojo80  ">
-                                    <span class=" material-icons tr50 icono-grande">
-                                        sentiment_dissatisfied   </span>
-                                </div>                        
-                                <div class="conformidad-detalle">
-                                    <div class="conformidad-valor"> 11.81%</div>
-                                    <div class="conformidad-descripcion"> No Satistecho </div>
-                                </div>
+                        <!-- CARA TRISTE -->
+                        <div class="conformidad-nivel">
+                            <div class="conformidad-icono fondo-rojo80  ">
+                                <span class=" material-icons tr50 icono-grande">
+                                    sentiment_dissatisfied   </span>
+                            </div>                        
+                            <div class="conformidad-detalle">
+                                <div class="conformidad-valor"> 11.81%</div>
+                                <div class="conformidad-descripcion"> No Satistecho </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div id="bloque-inf">
-                    <div class="bloque">
-                        <img src="img/Captura de pantalla (78).png">
-                    </div>
-
-                    <div class="bloque">
-                        <img src="img/Captura de pantalla (79).png">
-                    </div>
-
-                    <div class="bloque">
-                        <img src="img/Captura de pantalla (80).png">
-                    </div>
-
+            <div id="bloque-inf">
+                <div class="bloque bloque-inf-css">
+                    <h4>Customer Satisfaction Breakdown with Percentage</h4>
+                    <img src="img/Captura de pantalla (78).png" class="posimagen">
                 </div>
-            </main>
 
-            <footer>
-                <h2>Copyright 
-                    <span class="material-icons">
-                    copyright
-                    </span>
-                </h2>
-            </footer>
+                <div class="bloque bloque-inf-css">
+                    <h4>Average Response Time Over Month</h4>
+                    <img src="img/Captura de pantalla (79).png" class="posimagen">
+                </div>
 
-        </div>
+                <div class="bloque bloque-inf-css">
+                    <h4>Customer Satisfaction Score (CSAT) Over Month</h4>
+                    <img src="img/Captura de pantalla (80).png" class="posimagen">
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <h2>Copyright 
+                <span class="material-icons">
+                copyright
+                </span>
+            </h2>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,53 @@
+body{
+    background-color: #17123B;
+}
+
+li{
+    margin: 20px;
+    list-style-type: none;
+}
+
+form{
+    background-image: radial-gradient(circle at 27.48% 34.23%, #ffdfff 0, #f5c0ff 25%, #b99df2 50%, #847aba 75%, #5a5b88 100%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 4px solid rgb(182, 172, 199);
+    width: 400px;
+    background-color: rgb(72, 89, 146);
+    align-items: center;
+}
+
+.bloques{
+    height: 30px;
+    width: 80%;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding-right: 20px;
+} 
+
+button{
+    background-color: wheat;
+    height: 30px;
+    padding:7px;
+    border: none;
+}
+
+.boton{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width:800px){
+    form{
+        left: 15%;
+        top: 50px;
+    }
+} 

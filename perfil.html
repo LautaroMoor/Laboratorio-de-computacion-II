@@ -2,7 +2,7 @@
 <html >
     <head>
         <link rel="stylesheet" href="css/estilos_generales.css">
-        <link rel="stylesheet" href="css/estilos_index.css">
+        <link rel="stylesheet" href="css/estilos_perfil.css">
         <!-- ICONOS DE GOOGLE -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -10,6 +10,52 @@
     </head>
     
     <body>
+        <main>
+            <div id="contenedor">
+                <form action="servidor.html" method="POST">
+                    <h1> Datos Personales </h1>
+                    <ul>
+                        <li>
+                            <label for="inNombreUsuario"> Nombre usuario: </label>
+                            <input class="bloques" type="text" id="inNombreUsuario" placeholder="Ej: usu123" name="nombre_usuario" required>
+                        </li>
 
+                        <li>
+                            <label for="inEmail"> Correo Electronico: </label>
+                            <input class="bloques" type="email" id="inEmail" name="email_usuario" placeholder="Ej: email@gmail.c" required>
+                        </li>
+
+                        <li>
+                            <label for="inPassword"> Contrasenia: </label>
+                            <input class="bloques" type="password" id="inPassword" name="password_usuario" placeholder="Ej: 123456" required>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="inCheck" required>
+                            <label for="inCheck"> Acepto de los terminos de uso </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="inCheckmail" required>
+                            <label for="inCheckmail"> Quiero recibir ofertas por mail </label>
+                        </li>
+
+                        <div class="boton">
+                            <li>
+                                <button type="submit"> Enviar </button>
+                            </li>
+                            
+                            <li>
+                                <button type="reset"> Restablecer </button>
+                            </li>
+
+                            <li>
+                                <button><a href="index.html">Volver atrás </a></button>
+                            </li>
+                        </div>
+                    </ul>
+                </form>
+            </div>
+        </main>
     </body>
 </html>

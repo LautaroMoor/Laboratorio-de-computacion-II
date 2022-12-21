@@ -2,12 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.bloque{
-    background-color: #2A2953;
-    margin: 20px;
-    border: green solid 5px;
-}
-
 .rojo{
     color: red !important;
 }
@@ -32,4 +26,14 @@ div.bloque{
 
 .tr50{
     color: rgba(0,0,0,0.5);
+}
+
+a{
+    color:black;
+    text-decoration-line: none
+}
+
+a:visited{
+    color: black;
+    text-decoration-line: none
 }

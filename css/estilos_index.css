@@ -134,6 +134,7 @@ footer *{
     background-color: white;
     border-radius: 100%;
     border: black 2px solid;
+    width: 4%;
 }
 
 .conformidad-nivel{
@@ -253,6 +254,58 @@ footer *{
 }
 
 @media (max-width:950px){
+    #btn-perfil{
+        width: 10%;
+    }
+
+    #bloque-sup{
+        flex-direction: column;
+    }
+    
+    #bloque-izq-sup{
+        flex-direction: column;
+    }
+    #bloque-inf{
+        flex-direction: column;
+    }
+    #bloque-izq-inf{
+        flex-direction: column;
+    }
+    
+    .primeroPrimeraFila{
+        width: 100%;
+    }
+
+    .primeraFila{
+        width: 104%;
+    }
+
+    .segundaFila{
+        width: 111%;
+    }
+
+    #bloque-der{ 
+        width: 98%;
+    }
+
+    .bloque-inf-css{
+        width: 83%;
+    }
+
+    .csatBloqueIzquierdo{
+        margin-right: 67%;
+    }
+
+    .imag{
+        margin-left: 20%;
+    }
+
+    .imagentriangulo{
+        margin-left: 27%
+    }
+}
+
+@media (max-width:600px){
     #bloque-sup{
         flex-direction: column;
     }
@@ -289,5 +342,26 @@ footer *{
 
     .csatBloqueIzquierdo{
         margin-right: 67%;
+    }
+
+    .posimagen{
+        margin-left: 1px;
+    }
+
+    .imagentriangulo{
+        margin-left: 12%
+    }
+    
+    #bloque-der {
+        width: 100%;
+    }
+
+    .segundaFila{
+        width: 112%;
+    }
+
+    footer{
+        margin-left: 4%;
+        margin-right: 3.5%;
     }
 } 
